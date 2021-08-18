@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<header>
+    <nav>
+        <a href="#" class="cash-register">Cash Register</a>
+        <a href="#" class="source-code">Source code</a>
+    </nav>
+</header>
+<body>
+    
+    <main>
+    <div id="statusMessage">Check</div>
+    <div class="input-area">
+        <label for="bill-amount">Enter the bill amount:</label>
+        <input for="bill-amount" id="bill-amount" type="text">
+    </div>
+    <button id="inputBillAmountButton" class="btnTranslate">Check Amount</button>
+    <div id="input-bill-amount-window">
+        <div class="input-area">
+        <label for="user-amount">Enter the input amount:</label>
+        <input type="text" for="user-amount" id="user-amount">
+        </div>
+        <button id="userAmountButton" class="btnTranslate">Click to calculate balance</button>
+        <div id="table-calculator">
+            <table>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="return-amount">2000</td>
+                    <td class="return-amount">500</td>
+                    <td class="return-amount">200</td>
+                    <td class="return-amount">100</td>
+                    <td class="return-amount">50</td>
+                    <td class="return-amount">20</td>
+                    <td class="return-amount">10</td>
+                    <td class="return-amount">5</td>
+                    <td class="return-amount">2</td>
+                    <td class="return-amount">1</td>
+                </tr>
+                <tr>
+                    <th>Amount</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</main>
+</body>
+<footer>
+    <nav class="footer-nav">      
+        <div class="social-media">
+            <a href="https://github.com/sheldomaniac"><img src="src/images/github.svg" alt="my github link" class="feedback-github fb-images"></a>
+            <a href="https://github.com/sheldomaniac"><img src="src/images/linkedin.svg" alt="my linked-in link" class="feedback-linkedin fb-images"></a>
+            <a href="https://github.com/sheldomaniac"><img src="src/images/facebook.svg" alt="my facebook link" class="feedback-fb fb-images"></a>
+            <a href="https://github.com/sheldomaniac"><img src="src/images/instagram.svg" alt="my insta link" class="feedback-insta fb-images"></a>
+            <a href="https://github.com/sheldomaniac" class="feedback-resume">My Resume</a>
+        </div>		
+    </nav>
+    <p class="footer-text">&#169; Copyright by Sheldon Mendonca.</p>
+</footer>
+<script src="./src/script.js"></script>
+</html>
